@@ -434,8 +434,8 @@ hr {
 
 small,
 .small {
-  font-size: 80%;
-  font-weight: 400;
+  font-size: 90%;
+  font-weight: 450;
 }
 
 mark,
@@ -10332,6 +10332,8 @@ header.masthead .masthead-heading {
   text-align: center;
   color: white;
   border-radius: 100%;
+}
+.timeline > li .timeline-image {
   background-color: #FFCCC2;
 }
 .timeline > li .groomsmen{
@@ -10468,16 +10470,20 @@ header.masthead .masthead-heading {
 @media (min-width: 768px) {
   .schedule:before {
     left: 50% !important;
+    top: 2% !important;
   }
   .schedule > li .timeline-image {
-    left: 120% !important;
+    left: 50% !important;
   }
   .schedule > li.timeline-inverted .timeline-image {
-    left: -24% !important;
+    left: 50% !important;
   }
   .schedule > li {
     max-height: 70px !important;
     min-height: 70px !important;
+  }
+  .timeline:before {
+    margin-left: 6.5px;
   }
 }
 
