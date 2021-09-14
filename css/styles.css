@@ -14,7 +14,7 @@
 :root {
   --hunter: #245624;
   --hunter-light: #2A652A;
-  --baby: #FFCCC2;
+  --baby: #ffb0a0;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -3887,6 +3887,7 @@ input[type=button].btn-block {
 }
 
 .nav-link {
+  font-weight: 500;
   display: block;
   padding: 0.5rem 1rem;
 }
