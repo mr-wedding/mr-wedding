@@ -10156,7 +10156,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: var(--baby);
-  background: linear-gradient(rgba(36, 86, 36, 0.80), rgba(30, 72, 30, 0.45)), url("../assets/img/header-bg-hedge.jpg") no-repeat scroll center center;
+  background: linear-gradient(rgba(36, 86, 36, 0.80), rgba(30, 72, 30, 0.45)), url("../assets/img/header-bg-hedge.webp") no-repeat scroll center center;
   background-size: cover;
 }
 header.masthead .masthead-subheading {
