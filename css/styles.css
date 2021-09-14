@@ -10240,19 +10240,10 @@ header.masthead .masthead-heading {
 }
 @media  (max-width: 750px) {
   #information .portfolio-item .portfolio-caption .portfolio-caption-heading {
-    font-size: 1.3rem;
+    font-size: 1.15rem;
     }
   #information .portfolio-item .portfolio-caption .portfolio-caption-subheading {
-    font-size: 1rem;
-  }
-}
-
-@media  (max-width: 400px) {
-  #information .portfolio-item .portfolio-caption .portfolio-caption-heading {
-    font-size: 1.1rem;
-    }
-  #information .portfolio-item .portfolio-caption .portfolio-caption-subheading {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
   }
 }
 #information .portfolio-item .portfolio-caption .portfolio-caption-subheading {
