@@ -7419,7 +7419,7 @@ button.bg-dark:focus {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 .shadow-sm:hover {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.2rem 0.35rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .shadow {
@@ -10580,7 +10580,9 @@ section#rsvp form#rsvpForm :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
 }
-
+#copy_confirm{
+  visibility: hidden;
+}
 .shadowed-text {
   text-shadow: 0.02rem 0.02rem 0.06rem #a0a0a0
 }
