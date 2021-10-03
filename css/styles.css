@@ -376,6 +376,15 @@ h1, .h1 {
   font-size: 2.5rem;
 }
 
+@media (max-width: 400px) {
+  h1, .h1 {
+    font-size: 1.75rem !important;
+  }
+  h3.subheading {
+    font-size: 1.5rem !important;
+  }
+}
+
 h2, .h2 {
   font-size: 2rem;
 }
@@ -10238,6 +10247,19 @@ header.masthead .masthead-heading {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   margin-bottom: 0.75rem;
+}
+@media  (max-width: 355px) {
+  #information .portfolio-item .portfolio-caption .portfolio-caption-heading {
+    font-size: 0.65rem;
+  }
+}
+@media  (max-width: 465px) {
+  #information .portfolio-item .portfolio-caption .portfolio-caption-heading {
+    font-size: 0.85rem !important;
+    }
+  #information .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+    display: none;
+  }
 }
 @media  (max-width: 750px) {
   #information .portfolio-item .portfolio-caption .portfolio-caption-heading {
