@@ -10253,7 +10253,7 @@ header.masthead .masthead-heading {
     font-size: 0.65rem;
   }
 }
-@media  (max-width: 465px) {
+@media  (max-width: 450px) {
   #information .portfolio-item .portfolio-caption .portfolio-caption-heading {
     font-size: 0.85rem !important;
     }
