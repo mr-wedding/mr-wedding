@@ -10536,6 +10536,18 @@ header.masthead .masthead-heading {
   height: 13rem;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
+@media (max-width: 450px) {
+  .team-member h4 {
+    font-size: 1.2rem;
+  }
+  .team-member p {
+    font-size: 0.85rem;
+  }
+  .team-member img {
+    width: 8rem;
+    height: 8rem;
+  }
+}
 .team-member img.bridesmaids {
   border: 0.4rem solid var(--baby) !important;
 }
